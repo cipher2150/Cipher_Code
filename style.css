@@ -1,0 +1,246 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 50px;
+    background-color:rgba(188, 253, 251, 0.575) ;
+    border-radius: 5px;
+}
+
+.box1 {
+    color: white;
+    display: flex;
+    
+
+}
+
+.flag {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    bottom: 4px;
+}
+
+.heading1 {
+    position: relative;
+    top: 4px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 22px;
+    color: rgb(246, 191, 255);
+}
+
+.heading2 {
+    color: rgb(222, 179, 255);
+    position: relative;
+    top: 4px;
+
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 750px;
+    margin-left: 30px;
+   
+    
+}
+
+.preview1 {
+    width: 60px;
+    height: 45px;
+    background-image: url("https://cdn.britannica.com/70/153470-050-F4594C27/Ajanta-Caves-Maharashtra-India.jpg"); 
+    background-size: cover;
+    margin: 2.5px;
+    border-radius: 20px;
+    color: aquamarine;
+    text-align: center;
+
+}
+
+.preview2 {
+    width: 60px;
+    height: 45px;
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/f5/5c/82/gangaikondacholapuram.jpg?w=1200&h=-1&s=1");
+    background-size: cover;
+    margin: 2.5px;
+    border-radius: 20px;
+    color: rgb(25, 151, 209);
+    text-align: center;
+    margin-left: 5px;
+}
+
+.preview3 {
+    width: 60px;
+    height: 45px;
+    background-image: url("https://images.hindustantimes.com/img/2022/10/17/1600x900/Hampi_1659246711903_1666004939349_1666004939349.jpg");
+    background-size: cover;
+    margin: 2.5px;
+    border-radius: 20px;
+    color: aquamarine;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.preview4 {
+    width: 60px;
+    height: 45px;
+    background-image: url("https://static.toiimg.com/photo/95506013.cms");
+    background-size: cover;
+    margin: 2.5px;
+    border-radius: 20px;
+    color: rgb(184, 232, 136);
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+
+.preview5 {
+    width: 60px;
+    height: 45px;
+    background-image: url("https://images.herzindagi.info/image/2022/Sep/Famous-Hindu-Temples-Of-Khajuraho.jpg");
+    background-size: cover;
+    margin: 2.5px;
+    border-radius: 20px;
+    color: rgb(181, 40, 191);
+    text-align: center;
+    margin-left: 5px;
+}
+
+.preview6 {
+    width: 60px;
+    height: 45px;
+    background-image: url("https://img.etimg.com/thumb/width-1200,height-900,imgsize-1320103,resizemode-75,msid-73066330/news/science/iit-kharagpur-study-reveals-decline-of-harappan-city-dholavira-was-caused-by-drying-up-of-river-and-drought.jpg");
+    background-size: cover;
+    margin: 2.5px;
+    border-radius: 20px;
+    color: rgb(197, 93, 28);
+    text-align: center;
+    margin-left: 5px;
+}
+
+.preview7 {
+    width: 60px;
+    height: 45px;
+    background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2018/08/600x400-35-1200x900.jpg");
+    background-size: cover;
+    margin: 2.5px;
+    border-radius: 20px;
+    color: rgb(181, 40, 191);
+    text-align: center;
+    margin-left: 5px;
+}
+
+.preview8 {
+    width: 60px;
+    height: 45px;
+    background-image: url("https://www.worldhistory.org/img/c/p/1200x627/5013.jpg");
+    background-size: cover;
+    margin: 2.5px;
+    border-radius: 20px;
+    color: rgb(181, 40, 191);
+    text-align: center;
+    margin-left: 5px;
+}
+
+.preview9 {
+    width: 60px;
+    height: 45px;
+    background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2019/06/Bhimbetka-Rock-Shelters_600.jpg");
+    background-size: cover;
+    margin: 2.5px;
+    border-radius: 20px;
+    color: rgb(181, 40, 191);
+    text-align: center;
+    margin-left: 5px;
+}
+
+.preview10 {
+    width: 60px;
+    height: 45px;
+    background-image: url("https://www.deccanherald.com/sites/dh/files/article_images/2020/05/19/665694-188411786-1521634443.jpg");
+    background-size: cover;
+    margin: 2.5px;
+    border-radius: 20px;
+    color: rgb(181, 40, 191);
+    text-align: center;
+    margin-left: 5px;
+}
+
+.preview11 {
+    width: 60px;
+    height: 45px;
+    background-image: url("https://www.tripsavvy.com/thmb/W1qoDRZ1bzblnMZuaRrBpLeJF64=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-148830712_Darkrooma-3219b1ed8b424711bd9d9abeaf8e0238.jpg");
+    background-size: cover;
+    margin: 2.5px;
+    border-radius: 20px;
+    color: rgb(181, 40, 191);
+    text-align: center;
+    margin-left: 5px;
+}
+
+.body_A {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    width: 1440px;
+    height: 430px;  
+    background-color: rgb(210, 247, 248); /* color hatana hai */
+}
+
+.box_A {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    width: 311.25px; 
+    height: 415px; 
+    background-color: aquamarine; /* color hatana hai */
+}
+
+.box_a {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(204, 127, 25); /* color hatana hai */
+    height: 37px;
+}
+
+.box_b {
+    width: 311.25px;
+    height: 180px;
+    
+}
+
+.box_c {
+    width: 311.25px;
+    height: 198px;
+    background-color: aqua;
+}
+
+.heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+
+.paragraph {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 260px;
+    position: relative;
+    bottom: 3px;
+}
